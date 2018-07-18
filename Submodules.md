@@ -90,3 +90,6 @@ A `slingshot` repo contains code for `rubber-band` and `y-shaped-stick`. Another
         <contents-of-rubber-band>
   ########################################
 ```
+
+## F. Updating submodules
+If repo II changes, then in repos that reference this as a submodule must call `git submodule update --recursive --remote` to update to the latest tips of remote branches.
